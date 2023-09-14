@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.green-orange-gradient {
+  background: #ce6e00;
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #ce6e00 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #ce6e00 97.5%);
+}
+
